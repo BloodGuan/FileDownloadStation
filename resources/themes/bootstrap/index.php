@@ -98,8 +98,10 @@
             
             <div class="panel panel-default table-responsive">
             	<?php if(file_exists($lister->getDirectoryPath().'/README.md')): ?>
-	            	<div class="panel-body"> <div id="editormd-view"></div> </div>
-	            	<script type="text/javascript">
+	            	<div class="panel-body"> 
+	            		<div id="editormd-view">
+	            		</div> 
+	            		<script type="text/javascript">
 						$(function() {
 							var editormdView;
 							$.get("<?php echo $lister->getDirectoryPath().'/README.md' ?>", function(markdown) {
@@ -115,7 +117,8 @@
 								});
 							});
 						});
-					</script>
+						</script>
+	            	</div>
 	            <?php endif; ?>
             	<div class="table-responsive">
 	            	<table class="table table-striped table-hover">
