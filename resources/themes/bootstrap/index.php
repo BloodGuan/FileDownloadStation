@@ -4,7 +4,7 @@
 
     <head>
 
-        <title>Index of <?php echo $lister->getListedShortPath(); ?> - 小血的下载服务器</title>
+        <title>Index of <?php echo $lister->getListedShortPath(); ?></title>
         <link rel="shortcut icon" href="<?php echo THEMEPATH; ?>/img/favicon.ico">
 
         <!-- STYLES -->
@@ -43,7 +43,7 @@
         <div id="page-navbar" class="navbar navbar-default navbar-fixed-top">
             <div class="container">
 
-				<p class="navbar-brand">小血的下载服务器</p>
+				<p class="navbar-brand">File Download Station</p>
 
                 <?php $breadcrumbs = $lister->listBreadcrumbs(); ?>
 

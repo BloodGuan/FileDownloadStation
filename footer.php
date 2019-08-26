@@ -1,5 +1,5 @@
 <hr>
 
 <div class="footer">
-    © <a href="https://www.baidu.com">小血的下载服务器</a>
+    © <a href="https://github.com/BloodGuan/FileDownloadStation">File Download Station</a>
 </div>

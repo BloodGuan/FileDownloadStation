@@ -17,7 +17,6 @@ return array(
         'resources',
         'resources/*',
         '.*',
-        '@eaDir',
         'notice.html',
         'README.md',
         '*/README.md',
